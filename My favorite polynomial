@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Polynomial Page</title>
+    </head>
+    <body>
+        <table><tr><th>Number</th></tr><tr><td>char</td></tr><tr><td>char</td></tr><tr><td>char</td></tr><tr><td>char</td></tr><tr><td>char</td></tr></table>
+    </body>
+</html>
