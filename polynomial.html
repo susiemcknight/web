@@ -1,29 +1,8 @@
-PAGE_TITLE = "Polynomial Page"
-
-def makeStupidTable(n):
-    char = 0
-    body = "<table><tr><th>Number</th></tr>"
-    while char < n:
-        body += "<tr><td>"
-        body += str(char)
-        body += "</td></tr>"
-        char = char + 1
-    body += "</table>"
-    return body
-
-page = '''
-<!DOCTYPE html>
 <html>
     <head>
-        <title>_TITLE_</title>
+        <title>Polynomial Page</title>
     </head>
     <body>
-        _BODY_
+        <table><tr><th>Number</th></tr><tr><td>0</td></tr><tr><td>1</td></tr><tr><td>2</td></tr><tr><td>3</td></tr><tr><td>4</td></tr></table>
     </body>
 </html>
-'''
-
-page = page.replace("_TITLE_",PAGE_TITLE)
-page = page.replace("_BODY_",makeStupidTable(5))
-
-print(page)
